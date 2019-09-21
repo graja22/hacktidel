@@ -11,6 +11,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { SignupComponent } from './signup/signup.component';
 import { FooterComponent } from './footer/footer.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { SigninComponent } from './signin/signin.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     FeedbackComponent,
     SignupComponent,
     FooterComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    SigninComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
